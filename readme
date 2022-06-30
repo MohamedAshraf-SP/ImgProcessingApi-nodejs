@@ -1,4 +1,21 @@
-***api example:**
+## THIS IS a project of ***creating some operations on an img ***
+-backend api to resize or get meta data about an img and send it as a response
+-uses sharp liberary for img processing
+
+*** uses ***   
+       * `express` for building node server.
+       * `jasmine` for functionalities  & testing endpoint with the help of supertest .
+       * `type script` for clear typed code & variables .
+       * `-prettier`  -`linting`  : for clean texting, parsing, readability and ruling code text typing 
+       * `morgan` for logging and debugging process help
+       
+
+
+
+
+
+***api example:***
+[endpoint example](http://localhost:3000/api/image/?height=100&width=200&path=mo)
 
 http://localhost:3000/api/image/?height=100&width=200&path=mo
 
